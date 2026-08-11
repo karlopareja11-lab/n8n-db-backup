@@ -4,7 +4,7 @@ SET session_replication_role = replica;
 -- PostgreSQL database dump
 --
 
--- \restrict Q5ceKklrwtAnjP0cM2vIF8cOlaWrmxTLARWGdytNvuB0Hxt9OJZxJZ1mLeFt90z
+-- \restrict jeLKeZ6KfLnzr3Gnc86BGK7dP6XT5N9rOAfiypzb0iEpJLaeWZzPVfXifkdjr1C
 
 -- Dumped from database version 17.6
 -- Dumped by pg_dump version 17.6
@@ -790,6 +790,7 @@ railway	active	1.0.0	2026-07-31 08:57:13.759	{"id":50,"name":"com.railway/mcp","
 tenderly	active	1.0.1	2026-07-31 08:57:28.375	{"id":53,"name":"co.tenderly/tenderly-mcp","title":"Tenderly","tagline":"Connect to the Tenderly MCP Server","description":"Tenderly MCP server for blockchain dev — simulate, debug, and test on 100+ networks.","websiteUrl":null,"authType":"oauth2","isOfficial":true,"isPublished":true,"origin":"registry","createdAt":"2026-07-27T06:32:10.706Z","publishedAt":"2026-07-31T08:57:28.309Z","remotes":[{"id":71,"type":"streamable-http","url":"https://mcp.tenderly.co/mcp"}],"tools":[],"tags":{"data":[]},"extendsCredential":null,"icons":[{"src":"https://n8niostorageaccount.blob.core.windows.net/n8nio-strapi-blobs-prod/assets/id_Np_P91btg_2999d326fa.svg","mimeType":"image/svg+xml","theme":"dark"},{"src":"https://n8niostorageaccount.blob.core.windows.net/n8nio-strapi-blobs-prod/assets/idg5pc_CT_Me_199bebd567.svg","mimeType":"image/svg+xml","theme":"light"}]}	2026-07-27 12:56:04.337+00	2026-07-31 12:56:04.366+00
 brandfetch	active	1.0.1	2026-07-31 08:55:50.736	{"id":61,"name":"io.brandfetch/brandfetch","title":"Brandfetch","tagline":"Connect to the Brandfetch MCP Server","description":"Search brands and retrieve design assets, company data, other brand context from Brandfetch's API","websiteUrl":null,"authType":"oauth2","isOfficial":true,"isPublished":true,"origin":"registry","createdAt":"2026-07-27T06:33:44.412Z","publishedAt":"2026-07-31T08:55:50.665Z","remotes":[{"id":80,"type":"streamable-http","url":"https://mcp.brandfetch.io/mcp"}],"tools":[],"tags":{"data":[]},"extendsCredential":null,"icons":[{"src":"https://n8niostorageaccount.blob.core.windows.net/n8nio-strapi-blobs-prod/assets/id_X_Gq6_S_Iu2_39f64c1e3e.svg","mimeType":"image/svg+xml","theme":"dark"},{"src":"https://n8niostorageaccount.blob.core.windows.net/n8nio-strapi-blobs-prod/assets/idd_CQ_52_AR_5_a0d0556d83.svg","mimeType":"image/svg+xml","theme":"light"}]}	2026-07-27 12:56:04.337+00	2026-07-31 12:56:04.366+00
 lusha	active	1.0.0	2026-07-31 08:56:43.789	{"id":65,"name":"com.lusha.mcp/mcp","title":"Lusha","tagline":"Connect to the Lusha MCP Server","description":"Lusha MCP server for authorized business profile, usage, and buying-signal insights.","websiteUrl":null,"authType":"oauth2","isOfficial":true,"isPublished":true,"origin":"registry","createdAt":"2026-07-27T06:34:30.787Z","publishedAt":"2026-07-31T08:56:43.704Z","remotes":[{"id":84,"type":"streamable-http","url":"https://mcp.lusha.com/mcp"}],"tools":[],"tags":{"data":[]},"extendsCredential":null,"icons":[{"src":"https://n8niostorageaccount.blob.core.windows.net/n8nio-strapi-blobs-prod/assets/id_Oqhne_W4l_160b2c6387.svg","mimeType":"image/svg+xml","theme":"dark"},{"src":"https://n8niostorageaccount.blob.core.windows.net/n8nio-strapi-blobs-prod/assets/id_Hn_Bv_Pm_MF_b3cab3545f.svg","mimeType":"image/svg+xml","theme":"light"}]}	2026-07-27 12:56:04.337+00	2026-07-31 12:56:04.366+00
+miro	active	1.0.2	2026-08-10 08:21:30.846	{"id":70,"name":"io.github.miroapp/mcp-server","title":"Miro","tagline":"Connect to the Miro MCP Server","description":"Official Miro MCP server - Supports context to code and creating diagrams, docs, and data tables.","websiteUrl":null,"authType":"oauth2","isOfficial":true,"isPublished":true,"origin":"registry","createdAt":"2026-08-10T08:21:30.846Z","publishedAt":"2026-08-10T08:21:30.813Z","remotes":[{"id":89,"type":"streamable-http","url":"https://mcp.miro.com/"}],"tools":[],"tags":{"data":[]},"extendsCredential":null,"icons":[{"src":"https://n8niostorageaccount.blob.core.windows.net/n8nio-strapi-blobs-prod/assets/idk_O_5_Zj_Q7_b2bf73f9a8.svg","mimeType":"image/svg+xml","theme":"dark"},{"src":"https://n8niostorageaccount.blob.core.windows.net/n8nio-strapi-blobs-prod/assets/idkd_QM_0c_Wu_51bef08ff0.svg","mimeType":"image/svg+xml","theme":"light"}]}	2026-08-10 12:56:04.367+00	2026-08-10 12:56:04.367+00
 \.
 
 
@@ -2337,6 +2338,6 @@ SELECT pg_catalog.setval('"pub"."workflow_statistics_id_seq"', 4, true);
 -- PostgreSQL database dump complete
 --
 
--- \unrestrict Q5ceKklrwtAnjP0cM2vIF8cOlaWrmxTLARWGdytNvuB0Hxt9OJZxJZ1mLeFt90z
+-- \unrestrict jeLKeZ6KfLnzr3Gnc86BGK7dP6XT5N9rOAfiypzb0iEpJLaeWZzPVfXifkdjr1C
 
 RESET ALL;
